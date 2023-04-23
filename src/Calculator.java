@@ -1,4 +1,4 @@
-public class Caculator {
+public class Calculator {
     public float add(float a, float b){
         return a+b;
     }
@@ -16,7 +16,7 @@ public class Caculator {
     }
 
     public static void main(String[] args) {
-        Caculator calc = new Caculator();
+        Calculator calc = new Calculator();
         float a = 20;
         float b = 30;
         System.out.println("Cộng: "+ calc.add(a, b));

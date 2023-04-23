@@ -91,9 +91,9 @@ public class Users {
             System.out.println("2. Xem số dư");
             System.out.println("3. Thoát");
             System.out.print("Vui lòng chọn chức năng: ");
-            int choice = scanner.nextInt();
+            int choose = scanner.nextInt();
 
-            switch (choice) {
+            switch (choose) {
                 case 1:
                     withdrawals(scanner, user);
                     break;
